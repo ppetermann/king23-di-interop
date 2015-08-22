@@ -30,7 +30,7 @@ class InteropContainer extends DependencyContainer implements ContainerInterface
             return $this->getInstanceOf($id);
         } catch (\King23\DI\Exception\NotFoundException $e) {
 
-                // convert exception to interface compatible exception
+            // convert exception to interface compatible exception
             throw new \King23\DI\Interop\NotFoundException($e->getMessage(), $e->getCode(), $e);
         }
 
@@ -46,6 +46,6 @@ class InteropContainer extends DependencyContainer implements ContainerInterface
      */
     public function has($id)
     {
-        return $this->hasServiceFor($id);
+        return $this->hasServiceFor($id) || class_exists($id, true);
     }
 }
