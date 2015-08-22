@@ -21,7 +21,7 @@
 
     "autoload": {
         "psr-4": {
-            "King23\\DI\\Interop": "src/"
+            "King23\\DI\\Interop\\": "src/"
         }
     }
 }
