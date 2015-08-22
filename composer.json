@@ -1,0 +1,27 @@
+{
+    "name": "king23/di-interop",
+    "description": "extension to king23-di to make it compatible with container-interop",
+    "type": "lib",
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Peter Petermann",
+            "email": "ppetermann80@googlemail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "king23/di": "~1.0",
+        "container-interop/container-interop": "~1.1"
+    },
+
+    "require-dev": {
+    },
+
+    "autoload": {
+        "psr-4": {
+            "King23\\DI\\Interop": "src/"
+        }
+    }
+}
