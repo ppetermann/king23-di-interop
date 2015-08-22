@@ -19,6 +19,10 @@
     "require-dev": {
     },
 
+    "provide": {
+        "container-interop/container-interop-implementation": "1.1.0"
+    },
+
     "autoload": {
         "psr-4": {
             "King23\\DI\\Interop\\": "src/"
