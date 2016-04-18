@@ -3,6 +3,8 @@ VERSION 1  INITIAL RELEASE
 ==========================
 
    Version 1.0 - initial release
+      18/04/2016 11:57  1.0.2  signed release
+         6dfa905 enabled signing
       18/04/2016 11:55  1.0.1  dependency update
          24a38a8 composer update
       22/08/2015 19:18  1.0.0  initial release
