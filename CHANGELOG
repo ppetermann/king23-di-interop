@@ -3,6 +3,9 @@ VERSION 1  INITIAL RELEASE
 ==========================
 
    Version 1.0 - initial release
+      18/04/2016 12:03  1.0.2  signed tag
+         f95f4e9 Release of new version 1.0.2
+         6dfa905 enabled signing
       18/04/2016 11:57  1.0.2  signed release
          6dfa905 enabled signing
       18/04/2016 11:55  1.0.1  dependency update
