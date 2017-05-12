@@ -3,6 +3,8 @@ VERSION 1  INITIAL RELEASE
 ==========================
 
    Version 1.0 - initial release
+      12/05/2017 23:03  1.0.4  more docs
+         c58e95b documentation update
       12/05/2017 23:00  1.0.3  doc
          e248b67 added psr-11 to the composer files, compatibility existed implicit before
       18/04/2016 12:03  1.0.2  signed tag
