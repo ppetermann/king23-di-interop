@@ -13,14 +13,15 @@
     "require": {
         "php": ">=5.5.0",
         "king23/di": "~1.0",
-        "container-interop/container-interop": "~1.1"
+        "container-interop/container-interop": "~1.2"
     },
 
     "require-dev": {
     },
 
     "provide": {
-        "container-interop/container-interop-implementation": "1.1.0"
+        "container-interop/container-interop-implementation": "1.2.0",
+        "psr/container-implementation": "1.0.0"
     },
 
     "autoload": {

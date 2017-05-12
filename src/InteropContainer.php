@@ -10,6 +10,9 @@ use King23\DI\DependencyContainer;
  * this is a a bit of a cheat wrapper, as it makes the King23\DI have the methods of the Interopt\Containerinterface
  * but its actually a bit messy to do it this way - as the King23\DI is supposed to use interface names as id's, which
  * the interface is not. It will still work though
+ *
+ * implementing the ContainerInterface here, also implements the Psr\Container\ContainerInterface
+ *
  */
 class InteropContainer extends DependencyContainer implements ContainerInterface
 {
