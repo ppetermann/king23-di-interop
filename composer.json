@@ -28,5 +28,6 @@
         "psr-4": {
             "King23\\DI\\Interop\\": "src/"
         }
-    }
+    },
+    "abandoned": "king23/di"
 }

@@ -1,5 +1,7 @@
 # An interop extension to king23-di 
 
+**THIS PACKAGE HAS BEEN ABANDONED, king23/di implements psr-11 by itself, and no longer needs this wrapper**
+
 ## Introduction
 this is a simple extension to king23-di, which adds an interface so king23-di can be used with all projects that support
  [container-interopt](https://github.com/container-interop/container-interop) which also means that it can be used as a [Psr-11 (psr/container)](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-11-container.md) implementation
